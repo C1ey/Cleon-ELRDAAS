@@ -2,7 +2,7 @@
 
 :root{
     
-    --primary-color: rgb(203, 2, 0);
+    --primary-color: rgb(166, 0, 203);
     --secondary-color: #050505;
     --tertiary-color: grey;
     --dark-color: #363949;
@@ -10,7 +10,7 @@
     --dark-color-variant: #677483;
     --background-color: #f4f4f4;
     --white-color: #ffff;
-    --danger-color: #f44336;
+    --danger-color: #eb36f4;
     --success-color: #417c43;
     --warning-color: #ff9800;
     --info-color: #2196f3;
@@ -668,7 +668,7 @@ input[type="time"] {
 }
 
 input[type="submit"] {
-    background-color: maroon;
+    background-color: purple;
     color: #fff;
     padding: 10px;
     border: none;
@@ -677,7 +677,7 @@ input[type="submit"] {
 } 
 
 input[type="submit"]:hover {
-    background-color: darkred;
+    background-color: purple;
 }
 
 /* Styles for the table */
@@ -960,7 +960,7 @@ input[type="submit"]:hover {
 }
 
 .view-more-btn:hover {
-    background-color: darkred; /* Adjust color as needed */
+    background-color: purple; /* Adjust color as needed */
 }
 
 /* Base styling for requests table */
@@ -1087,11 +1087,11 @@ input[type="submit"]:hover {
 }
 
 .dark-mode-variables .send-message-btn {
-    background-color: darkred;
+    background-color: purple;
 }
 
 #submit {
-    background-color: maroon;
+    background-color: purple;
     color: #fff;
     padding: 10px;
     border: none;
@@ -1104,7 +1104,7 @@ input[type="submit"]:hover {
 }
 
 #submit-sche {
-    background-color: maroon;
+    background-color: purple;
     color: #fff;
     padding: 10px;
     border: none;

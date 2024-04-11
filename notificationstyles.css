@@ -2,7 +2,7 @@
 
 :root{
     
-    --primary-color: rgb(203, 2, 0);
+    --primary-color: rgb(166, 0, 203);
     --secondary-color: #050505;
     --tertiary-color: grey;
     --dark-color: #363949;
@@ -10,7 +10,7 @@
     --dark-color-variant: #677483;
     --background-color: #f4f4f4;
     --white-color: #ffff;
-    --danger-color: #f44336;
+    --danger-color: #eb36f4;
     --success-color: #417c43;
     --warning-color: #ff9800;
     --info-color: #2196f3;
@@ -506,7 +506,7 @@ main .new-users .user-list .user img{
 }
 
 .notification span {
-    color: red;
+    color: purple;
     cursor: pointer;
     float: right;
     font-weight: bold;

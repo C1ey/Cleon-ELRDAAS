@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-    --primary-color: rgb(203, 2, 0); /* Red */
+    --primary-color: rgb(166, 0, 203); /* purple */
     --secondary-color: #050505;      /* Almost Black */
     --tertiary-color: grey;          /* Grey */
     --text-light: #ffffff;           /* White */
@@ -39,7 +39,7 @@ body {
 
 .priority-btn {
     padding: 8px 16px;
-    background-color: #ff0022;
+    background-color: #eb36f4;
     color: #fff;
     border: none;
     border-radius: 4px;
