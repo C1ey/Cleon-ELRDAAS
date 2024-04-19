@@ -8,8 +8,8 @@
     --dark-color: #363949;
     --light-color:rgba(80, 91, 176, 0.18);
     --dark-color-variant: #677483;
-    --background-color: #f4f4f4;
-    --white-color: #ffff;
+    --background-color: #f4f4f4a8;
+    --white-color: #f4f4f4a8;
     --danger-color: #eb36f4;
     --success-color: #417c43;
     --warning-color: #ff9800;
@@ -28,7 +28,7 @@
 .dark-mode-variables{
     --background-color: #181a1e;
     --white-color: #202528;
-    --dark-color: #edeffd;
+    --dark-color: #f4f4f4a8;
     --dark-color-variant: #a3bdcc;
     --light-color: rgba(0,0,0,.4);
     --box-shadow: 0 2rem 4rem var(--light-color);
@@ -574,7 +574,7 @@ main .new-users .user-list .user img{
 
 .right-section .dark-mode span.active {
     background-color: var(--primary-color); /* Active button color */
-    color: white; /* Text color for active button */
+    color: grey; /* Text color for active button */
     border-radius: 50%;
 }
 .right-section .nav .profile {

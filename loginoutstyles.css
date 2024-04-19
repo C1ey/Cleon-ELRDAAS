@@ -4,9 +4,9 @@
     --primary-color: rgb(166, 0, 203); /* purplw */
     --secondary-color: #050505;      /* Almost Black */
     --tertiary-color: grey;          /* Grey */
-    --text-light: #ffffff;           /* White */
-    --input-background: #f4f4f4;     /* Light Grey */
-    --input-border: #cfd8dc;         /* Lighter Grey */
+    --text-light: #f4f4f4a8;           /* White */
+    --input-background: #f4f4f4a8;     /* Light Grey */
+    --input-border: #f4f4f4a8;         /* Lighter Grey */
 }
 
 * {

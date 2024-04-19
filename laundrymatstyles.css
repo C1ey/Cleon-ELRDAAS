@@ -1,0 +1,21 @@
+/* Existing styles... */
+
+/* Styling for the bulbs */
+.laundry-appointments button {
+    background-color: grey; /* Default grey color */
+    border-radius: 50%; /* Makes the button oval */
+    width: 30px; /* Set width */
+    height: 30px; /* Set height */
+    transition: background-color 0.3s ease; /* Smooth transition for color change */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin: 0 5px; /* Add some margin between buttons */
+}
+
+/* Hover state for the bulbs */
+.laundry-appointments button:hover {
+    background-color: purple; /* Changes to purple on hover */
+}
+
+/* Existing styles... */
+
+/* Include your existing styles here */

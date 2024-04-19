@@ -13,7 +13,7 @@
             <aside>
                 <div class="toggle">
                     <div class="logo">
-                        <img src="images/elr towers logo.png" alt="logo">
+                        <img src="MyImages/wolf logo.jpg" alt="logo">
                         <h2>ELR Towers Hall<span class = "danger"> Domestic Affairs</span></h2>
                         <div class="close" id="close-btn">
                             <span class="material-icons-sharp">
@@ -113,19 +113,64 @@
             <option value="washdry">Wash and Dry</option>
         </select>
 
-        <label for="loads">Number of Loads ($200 JMD per cycle):</label>
+        <label for="loads">Number of Loads ($500 JMD per cycle):</label>
         <select id="loads" name="loads" required>
             <option value="1">1 Load</option>
             <option value="2">2 Loads</option>
             <option value="3">3 Loads</option>
         </select>
-`       <p>Appointment Cost= <span id="appointmentCost">$200JMD * Number of Loads </span></p>
+`       <p>Appointment Cost= <span id="appointmentCost">$500JMD * Number of Loads </span></p>
         <p>
             <input type="checkbox" id="agree" name="agree" required>
             <label for="agree">I agree to the <a href="terms_and_conditions.html">Terms and Conditions</a></label>
         </p>
         <button type="submit" class="submit-btn">Create Appointment</button>
     </form>
+
+
+    <form id="appointmentForm">
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentName" required><br><br>
+    
+        <label for="appointmentDate">Date:</label>
+        <input type="date" id="appointmentDate" name="appointmentDate" required><br><br>
+    
+        <label for="appointmentTime">Time:</label>
+        <input type="time" id="appointmentTime" name="appointmentTime" required><br><br>
+    
+        <label for="service">Service:</label>
+        <select id="service" name="service" required>
+            <option value="Washing & Drying">Washing & Drying</option>
+            <option value="Stain Removal">Stain Removal</option>
+            <option value="Unattended Wash & Dry">Unattended Wash & Dry</option>
+        </select><br><br>
+    
+        <label for="loads">Number of Loads:</label>
+        <input type="number" id="loads" name="loads" min="1" max="10" value="1" required><br><br>
+    
+        <input type="submit" value="Add Appointment">
+    </form>
+    
+
+        <label for="numberOfLoads">Number of Loads ($500 JMD per cycle):</label>
+<select id="numberOfLoads" name="numberOfLoads" required>
+    <option value="1">1 Load</option>
+    <option value="2">2 Loads</option>
+    <option value="3">3 Loads</option>
+</select>
+<button type="button" id="calculateCost">Calculate Cost</button>
+<p>Appointment Cost= <span id="appointmentCost">$500JMD</span></p>
+
+
+
+<section class="admin-section">
+    <h2>Admin View</h2>
+    <ul id="appointmentList"></ul>
+</section>
+
+
+
+    
 </main>
 
 <!-- Existing script for dark mode -->
@@ -177,7 +222,7 @@
         <div class="profile">
             <a href="profile.html" class="profile-link">
                 <div class="profil-photo">
-                    <img src="images/elf wolf 1.jpeg" alt="Profile Picture">
+                    <img src="MyImages/wolf look.jpg" alt="Profile Picture">
                 </div>
             </a>
             <div class="info">
@@ -233,3 +278,6 @@
 
 </body>
 </html>
+
+#included
+<script src="appointment.js"></script>

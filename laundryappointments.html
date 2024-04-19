@@ -14,7 +14,7 @@
             <aside>
                 <div class="toggle">
                     <div class="logo">
-                        <img src="images/elr towers logo.png" alt="logo">
+                        <img src="MyImages/wolf logo.jpg" alt="logo">
                         <h2>ELR Towers Hall<span class = "danger"> Domestic Affairs</span></h2>
                         <div class="close" id="close-btn">
                             <span class="material-icons-sharp">
@@ -102,28 +102,37 @@
             <!--End of Sidebar Section-->
             <main>
                 <link rel="stylesheet" href="laundrmatstyles.css">
-                <section class="laundry-appointments"> <!-- New section for laundry appointments -->
-                    <h1>Laundromat Appointments</h1>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Student Name</th>
-                                <th>Date</th>
-                                <th>Time</th>
-                                <th>Service</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Random Joe</td>
-                                <td>2023-12-01</td>
-                                <td>10:00 AM</td>
-                                <td>Washing and drying</td>
-                            </tr>
-                            <!-- Add more rows for additional appointments -->
-                        </tbody>
-                    </table>
-                </section>
+                <!-- ... -->
+<section class="laundry-appointments">
+    <h1>Laundromat Appointments</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Service</th>
+                <th>Actions</th> <!-- New column for actions -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Random Joe</td>
+                <td>2023-12-01</td>
+                <td>10:00 AM</td>
+                <td>Washing and drying</td>
+                <td>
+                    <button onclick="previewAppointment()">Preview</button>
+                    <button onclick="deleteAppointment()">Delete</button>
+                    <button onclick="markCompleted()">Mark Completed</button>
+                </td>
+            </tr>
+            <!-- Add more rows for additional appointments -->
+        </tbody>
+    </table>
+</section>
+<!-- ... -->
+
                 
                 <!-- Rest of the main content... -->
     
@@ -148,7 +157,7 @@
         <div class="profile">
             <a href="adminprofile.html" class="profile-link">
                 <div class="profil-photo">
-                    <img src="images/elf wolf 1.jpeg" alt="Profile Picture">
+                    <img src="MyImages/wolf look.jpg" alt="Profile Picture">
                 </div>
             </a>
             <div class="info">
@@ -209,4 +218,10 @@
     updateModeIndicator();
 </script>
 </body>
+
+
+<link rel="stylesheet" href="laundrmatstyles.css">
+
+
+
 </html>
